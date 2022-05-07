@@ -1,0 +1,366 @@
+body{
+    @font-face {
+        font-family: 'Roboto';
+        src: url('Roboto-Bold-webfont.eot');
+        src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+        font-style: normal;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
+    
+}
+/** Edições da NAV ***/
+#barra1{ 
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    height: 68px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    text-align: center;
+    color: white;
+}
+
+.container1, p{
+    padding-top: 10px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    @font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    font-style: normal;
+}
+}
+
+.logo{
+    height: 258px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+li{
+    padding: 8px 0px;
+    text-decoration: none;
+    list-style-type:none;
+    border-bottom: 3px solid rgb(221, 219, 219);
+    width: 220px;
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    font-style: normal;
+}
+}
+
+a {
+    text-decoration: none;
+    color:#725C5C;
+    text-decoration: none;
+    padding: 7px 24px ;
+    
+}
+
+li:hover{
+    background:  #FDF1EB;
+    border-left: 5px solid rgb(255,180,85);
+    
+}
+li:hover{
+    background:  #FDF1EB;
+    border-left: 5px solid rgb(255,180,85);
+    text-decoration: none;
+      }
+ a:link {
+    color: #725C5C;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+ul {
+    padding-inline-start: 3px;
+    color: rgb(0, 0, 0);
+    
+}
+.barra-lateral{
+    height:2314px ;
+    width:220px ;
+    position: fixed;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+/***Edição da lateral configuração do Aside***/
+aside{
+    float: right;
+    margin-right: 45px;
+    margin-top: 45px;
+    
+}
+.frase{
+text-align: center;
+margin: 385px 0px -55px 250px;
+color: #ED7839;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+letter-spacing: 0.05em;
+position: relative;
+}
+.botoes1{
+    text-align: center;
+    float: right;
+    margin: -35px 0px -25px 255px;
+    font-size:14px
+}
+.botoes2{
+    text-align: center;
+    float: right;
+    margin: -35px 5px -25px 370px ;
+    position: absolute;
+    font-size:14px
+
+}
+.botoes3{
+    text-align: center;
+    float: right;
+    margin: -35px 5px -25px 235px ;
+    position: absolute;
+    font-size:14px
+}
+
+/*** Configurando a 1º barra superior***/
+.container1{
+    width: auto;
+    height: 80px;
+    margin-left: 220px;
+    background: #FDF1EB;
+
+}
+
+.fonte1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #725C5C;
+    margin: -5px 0px -5px 36px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.fonte2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 36px;
+    margin-bottom: -15px;
+    color: #725C5C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+.botao-idm{
+    margin: -47px 97px 17px 650px;
+    text-align: center;
+    
+}
+.btn{
+    text-align: center;
+    border-radius: 0rem;
+    border: 1px solid #CCCCCC;
+    box-shadow: none;
+    background: #FDF1EB; 
+}
+.fonte-direita1{
+    font-family:'Quicksand', sans-serif;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: -45px;
+    margin-right: -35px;
+}
+.fonte-direita2{
+    font-family:'Quicksand', sans-serif;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: -25px;
+    margin-right: -35px;
+}
+#img-direita{
+    float: right;
+    margin: -60px -90px 0px 0px;
+    border-radius: 100px;
+}
+
+.notificacao{
+    float: right;
+    margin: -65px -95px 0px 0px;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.notificacao2{
+    color: white;
+    font-size: 20px;
+    margin-top: -14px;   
+}
+
+section p{
+    color: #4D4D4D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 950;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    margin: 25px 25px 0 0px ;
+    padding: 0px 0px  0px 0px;
+    text-align: left;
+}
+section h3{
+    color: #ED7839;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 25px 0px 0 250px ;
+    text-align: left;
+}
+
+/***Configurando o vídeo***/
+iframe{
+    margin: -400px 0 0  245px;
+    background: rgba(141, 53, 6, 0.5);
+    border-radius: 3px;
+    position: relative;
+}
+
+/***Configurando o card da parte do aside 
+que contem os Textos Principais***/
+.card{
+    margin-left: 245px;
+    margin-top: 30px;
+    position: relative;
+}
+.texto-resumo{
+    padding: 15px;
+}
+.card2-texto{
+   text-align: center;
+}
+.card2-texto, h5{
+    margin-top: 15px;
+    color: #ED7839;
+ }
+ .img-comunidade{
+    margin-left: 380px;
+    margin-top: 27px;
+
+ }
+ .frase-card{
+    font-family:'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin: 40px 20% 0 20%;
+    
+ }
+ .divisoria{
+     border-top: 1px solid #E7E7E7;
+     width: 1010px;
+    margin:15px 15px 0 15px;
+    padding-right: 105px;
+ }
+.card2{
+    margin-left: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+ .frase-card2{
+    font-family:'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+ }
+.card-body h5{
+     color:#ED7839 ;
+ }
+
+ .card-body h6{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.card a i{
+    color: #ED7839;
+    text-decoration:none;
+    line-height: 12px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.card i:hover{
+    color: red;
+}
+.card-respostas{
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    text-align: left;
+    padding: 30px 15px 30px 15px;
+    background-color: #F8F8F8;
+
+}
+.card-respostas2{
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    text-align: left;
+    padding: 30px 15px 30px 15px;
+}
+/** Conigurando nomes de autor e coautor**/
+.palabra-direita {
+    text-align: right;
+    margin:-35px 35px 0 0 ;
+    float: right;
+    font-family: 'Quicksand' 'sanserife';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+    padding-right: 33px;
+    
+}
+.palabra-direita i{
+    text-align: right;
+    margin:0 0px 0  35px ;
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+    
+}
+/***Configurações do footer***/
+footer{
+    border-top: 1px solid #E7E7E7;
+    margin: 35px 200px 0 235px;
+    
+}
