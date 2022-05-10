@@ -1,6 +1,5 @@
-# Projeto_Slaca2019
+# *Projeto_Slaca2019*
 Réplica de um site para a empresa Chuva.
-# *REPLICA DO SITE DO SPOTIFY*
 
 ## *:::::Sobre o projeto:::::::::*
 
